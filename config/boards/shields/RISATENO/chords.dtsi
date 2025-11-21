@@ -72,7 +72,7 @@ combo_l_bspc { \
 combo_r_bspc { \
 	timeout-ms = <COMBO_TIMEOUT>; \
 	bindings = <&kp BSPC>; \
-	key-positions = <ROT>; \	
+	key-positions = <ROT>; \
 	layers = <COMBO_LAYERS>; \
 };
 //    (name,   press,       inner,         out,         both,          chord,       chord)
