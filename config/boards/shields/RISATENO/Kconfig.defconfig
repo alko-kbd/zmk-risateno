@@ -1,0 +1,12 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_RISATENO
+
+config ZMK_KEYBOARD_NAME
+    default "RiSATENOO"
+
+config ZMK_SPLIT
+    default n
+
+endif

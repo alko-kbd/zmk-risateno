@@ -1,0 +1,23 @@
+{
+  "id": "risateno",
+  "name": "risateno",
+  "layouts": {
+    "LAYOUT": {
+      "layout": [
+        { "label":      "B", "row": 0, "col":  0, "x":    0, "y":  0 },
+        { "label":      "F", "row": 0, "col":  1, "x":    1, "y":  0 },
+        { "label":      "T", "row": 0, "col":  2, "x":    2, "y":  0 },
+        { "label":      "J", "row": 0, "col":  3, "x":    3, "y":  0 },
+
+        { "label":      "H", "row": 1, "col":  0, "x":    0, "y":  1 },
+        { "label":      "C", "row": 1, "col":  1, "x":    1, "y":  1 },
+        { "label":      "N", "row": 1, "col":  2, "x":    2, "y":  1 },
+        { "label":      "Y", "row": 1, "col":  3, "x":    3, "y":  1 },
+
+        { "label":   "Bksp", "row": 2, "col":  0, "x":    3, "y":  2 },
+        { "label":  "Space", "row": 2, "col":  1, "x":    4, "y":  2 }
+      ]
+    }
+  },
+  "sensors": []
+}

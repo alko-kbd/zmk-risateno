@@ -1,0 +1,8 @@
+file_format: "1"
+id: RISATENO
+name: RISATENO 
+type: shield
+url: https://github.com/alko-kbd
+requires: [pro_micro]
+features:
+  - keys
