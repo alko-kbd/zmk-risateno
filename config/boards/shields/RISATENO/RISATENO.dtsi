@@ -6,7 +6,8 @@
 
 / {
     chosen {
-        zmk,kscan = &kscan0; 
+        zmk,kscan = &kscan0;
+        zmk,physical-layout = &physical_layout0;
     };
     
     kscan0: kscan {
@@ -24,35 +25,27 @@
             , <&pro_micro 7  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             , <&pro_micro 8  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             ;
+    };
 
-        // Эта property обязательна для поддержки ZMK Studio 
-        // при отсутствии zmk,matrix-transform.
-        col-lanes = <10>; 
-        row-lanes = <1>; 
-
-        key-positions = <
-            0  1  2  3
-            4  5  6  7
-                     8  9
-        >;
+    physical_layout0: physical_layout {
+        compatible = "zmk,physical-layout";
         
-        // Определение физического расположения для ZMK Studio
-        // key-positions описывает 10 клавиш. 
-        // Ширина каждой клавиши 1.0u, высота 1.0u.
-        // X, Y координаты клавиш (в условных единицах 'u'):
-        // (0,0) (1,0) (2,0) (3,0) (4,0)
-        // (0,1) (1,1) (2,1) (3,1) (4,1)
-        key-x = <
-            (0.0) (1.0) (2.0) (3.0)
-            (0.0) (1.0) (2.0) (3.0)
-                        (3.0) (4.0)
-        >;
-
-        key-y = <
-            (0.0) (0.0) (0.0) (0.0)
-            (1.0) (1.0) (1.0) (1.0)
-                        (2.0) (2.0)
-        >;
+        keymap {
+            physical_key_positions = <0 1 2 3 4 5 6 7 8 9>;
+            
+            key_0 { row = <0>; column = <0>; };
+            key_1 { row = <0>; column = <1>; };
+            key_2 { row = <0>; column = <2>; };
+            key_3 { row = <0>; column = <3>; };
+            
+            key_4 { row = <1>; column = <0>; };
+            key_5 { row = <1>; column = <1>; };
+            key_6 { row = <1>; column = <2>; };
+            key_7 { row = <1>; column = <3>; };
+            
+            key_8 { row = <2>; column = <3>; };
+            key_9 { row = <2>; column = <4>; };
+        };
     };
 
 };
