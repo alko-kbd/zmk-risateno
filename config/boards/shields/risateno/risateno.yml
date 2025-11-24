@@ -1,8 +1,8 @@
 file_format: "1"
-id: corner
-name: Corner
+id: risateno
+name: RISATENO
 type: shield
-url: https://github.com/foostan/crkbd/
+url: https://github.com/alko-kbd/zmk-pncateho/
 requires: [pro_micro]
 features:
   - keys

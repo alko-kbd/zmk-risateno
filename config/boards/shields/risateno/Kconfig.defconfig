@@ -1,6 +1,6 @@
 
 config ZMK_KEYBOARD_NAME
-    default "Corner"
+    default "RISATENO"
 
 config ZMK_SPLIT
     default n

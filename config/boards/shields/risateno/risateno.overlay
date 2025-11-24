@@ -4,4 +4,4 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "corner.dtsi"
+#include "risateno.dtsi"
