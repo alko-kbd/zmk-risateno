@@ -46,9 +46,11 @@
 
         ctrl_layer {
             display-name = "CTRL";
+                        bindings = <
    &kp LEFT     &kp UP       &kp DOWN     &kp RIGHT
    &kp LGUI     &kp ALT      &kp CTRL     &kp N8
                              &kp BSPC     &kp SPACE
+                        >;
         };
         
         extra_1 {
