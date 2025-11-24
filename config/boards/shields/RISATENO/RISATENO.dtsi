@@ -30,25 +30,20 @@
     physical_layout0: physical_layout {
         compatible = "zmk,physical-layout";
         display-name = "RISATENO";
-        
-        keymap {
-            physical_key_positions = <0 1 2 3 4 5 6 7 8 9>;
-            
-            key_0 { row = <0>; column = <0>; };
-            key_1 { row = <0>; column = <1>; };
-            key_2 { row = <0>; column = <2>; };
-            key_3 { row = <0>; column = <3>; };
-            
-            key_4 { row = <1>; column = <0>; };
-            key_5 { row = <1>; column = <1>; };
-            key_6 { row = <1>; column = <2>; };
-            key_7 { row = <1>; column = <3>; };
-            
-            key_8 { row = <2>; column = <3>; };
-            key_9 { row = <2>; column = <4>; };
-        };
-        
         transform = <&default_transform>;
+        kscan = <&kscan0>;
+        keys  //                     w   h    x    y     rot    rx    ry
+            = <&key_physical_attrs 100 100    0    0       0     0     0>
+            , <&key_physical_attrs 100 100  100    0       0     0     0>
+            , <&key_physical_attrs 100 100  200    0       0     0     0>
+            , <&key_physical_attrs 100 100  300    0       0     0     0>
+            , <&key_physical_attrs 100 100    0  100       0     0     0>
+            , <&key_physical_attrs 100 100  100  100       0     0     0>
+            , <&key_physical_attrs 100 100  200  100       0     0     0>
+            , <&key_physical_attrs 100 100  300  100       0     0     0>
+            , <&key_physical_attrs 100 100  300  200       0     0     0>
+            , <&key_physical_attrs 100 100  400  200       0     0     0>
+            ; 
     };
     
     default_transform: keymap_transform_0 {
