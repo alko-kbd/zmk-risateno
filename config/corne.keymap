@@ -14,10 +14,6 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/reset.h>
 
-&led_strip {
-    chain-length = <27>;
-};
-
 / {
     keymap {
         compatible = "zmk,keymap";
