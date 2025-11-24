@@ -4,6 +4,8 @@
  * SPDX-License-Identifier: MIT
  */
 
+#include <physical_layouts.dtsi>
+
 / {
     chosen {
         zmk,kscan = &kscan0;
