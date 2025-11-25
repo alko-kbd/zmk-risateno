@@ -1,6 +1,6 @@
 # ZMK PNCATEHO Layout Firmware
 
-Use branches to select a keyboard.
+PNCATEHO with ZMK Studio support.
 
 [Hardware repository](https://github.com/aroum/PNCATEHO)
 
