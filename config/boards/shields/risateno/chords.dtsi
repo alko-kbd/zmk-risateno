@@ -23,12 +23,14 @@ combo_lb_##NAME { \
 	key-positions = <LEFT_KEYPOS LIT LOT>; \
 	layers = <COMBO_LAYERS>; \
 }; \
+
 combo_l_space { \
 	timeout-ms = <COMBO_TIMEOUT>; \
 	bindings = <&kp SPACE>; \
 	key-positions = <LIT>; \
 	layers = <COMBO_LAYERS>; \
 };
+
 combo_l_bspc { \
 	timeout-ms = <COMBO_TIMEOUT>; \
 	bindings = <&kp BSPC>; \
