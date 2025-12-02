@@ -43,27 +43,11 @@
 
     default_layer {
       bindings = <
-        &none &none &none &none
-        &none &none &none &none
-                          &none &none
+        &none &none &none &none               &none &none &none &none     
+        &none &none &none &none               &none &none &none &none     
+                          &none &none   &none &none &none   
       >;
     };
-
-//    default_layer {
-//      bindings = <
-//        &kp B &kp F &kp T &kp J
-//        &kp H &kp C &kp N &kp Y
-//                          &kp BSPC &kp SPACE
-//      >;
-//    };
-    
-//    number_layer {
-//      bindings = <
-//        &kp N1 &kp N2 &kp N3 &kp N4
-//        &kp N5 &kp N6 &kp N7 &kp N8
-//                          &kp BSPC &kp SPACE
-//      >;
-//    };
   };
 };
 
