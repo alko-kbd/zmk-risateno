@@ -27,7 +27,7 @@
 
     default_layout: default_layout {
         compatible = "zmk,physical-layout";
-        display-name = "10 keys";
+        display-name = "10+10 keys";
         transform = <&default_transform>;
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0    0       0     0     0>
@@ -40,14 +40,29 @@
             , <&key_physical_attrs 100 100  300  100       0     0     0>
             , <&key_physical_attrs 100 100  300  200       0     0     0>
             , <&key_physical_attrs 100 100  400  200       0     0     0>
+
+            , <&key_physical_attrs 100 100  600    0       0     0     0>
+            , <&key_physical_attrs 100 100  700    0       0     0     0>
+            , <&key_physical_attrs 100 100  800    0       0     0     0>
+            , <&key_physical_attrs 100 100  900    0       0     0     0>
+            , <&key_physical_attrs 100 100  600  100       0     0     0>
+            , <&key_physical_attrs 100 100  700  100       0     0     0>
+            , <&key_physical_attrs 100 100  800  100       0     0     0>
+            , <&key_physical_attrs 100 100  900  100       0     0     0>
+            , <&key_physical_attrs 100 100  1000 200       0     0     0>
+            , <&key_physical_attrs 100 100  1100 200       0     0     0>
         ;
     };
 
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
         rows = <1>;
-        columns = <10>;
-        map = <0 1 2 3 4 5 6 7 8 9>;
+        columns = <20>;
+        map = <
+        0 1 2 3              13 12 11 10
+        4 5 6 7              17 16 15 14
+                8 9    19 18
+        >;
     };
 
 };
