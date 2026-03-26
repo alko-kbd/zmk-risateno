@@ -17,7 +17,7 @@ include:
 #    shield: risateno_left
 #    artifact-name: zmk-risateno-left
     
-  - board: nice_nano_v2@zmk
+  - board: nice_nano//zmk
     shield: risateno_right
     artifact-name: zmk-risateno-right
     
