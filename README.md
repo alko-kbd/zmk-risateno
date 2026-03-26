@@ -8,8 +8,8 @@ Prepared for ZMK Studio.
 
 # Layout
 
-![RISATENO_left](pics/risateno_left.png)
+![RISATENO_left](pics/PNCATEHO_dual_KLE.png)
 
 # Pins and fingers
 
-![pin_fingers_layout](pics/risateno_pin_fingers_layout.png)
+![pin_fingers_layout](pics/pin_fingers_layout.png)
