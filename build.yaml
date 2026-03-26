@@ -13,13 +13,13 @@
 #
 ---
 include:
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: risateno_left
     artifact-name: zmk-risateno-left
     
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: risateno_right
     artifact-name: zmk-risateno-right
     
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: settings_reset
