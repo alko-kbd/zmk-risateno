@@ -1,6 +1,6 @@
 # ZMK Firmware for handwired RISATENO
 
-Used chords by aroum [zmk-PNCATEHO](https://github.com/aroum/zmk-PNCATEHO). Left half only.
+Used chords by aroum [zmk-PNCATEHO](https://github.com/aroum/zmk-PNCATEHO). Left and right halfs are central.
 
 Pins optimized for handwired.
 
