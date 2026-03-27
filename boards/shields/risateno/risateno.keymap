@@ -30,8 +30,8 @@
 #define BRR 14 // BOTTOM
 #define BRM 13 // BOTTOM
 #define BRI 12 // BOTTOM
-#define ROT 18 // O-THUMB
-#define RIT 19 // I-THUMB
+#define ROT 19 // O-THUMB
+#define RIT 18 // I-THUMB
 
 
 &sk {
