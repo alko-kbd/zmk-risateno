@@ -42,7 +42,11 @@
 / {
   combos {
     compatible = "zmk,combos";
+    #if defined(CONFIG_SHIELD_RISATENO_RIGHT)
+    #include "chords_right.dtsi"
+    #else
     #include "chords.dtsi"
+    #endif
   };
 
   keymap {

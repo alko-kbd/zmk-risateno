@@ -3,3 +3,9 @@
 
 config SHIELD_RISATENO
     def_bool $(shields_list_contains,risateno)
+
+config SHIELD_RISATENO_LEFT
+    def_bool $(shields_list_contains,risateno_left)
+
+config SHIELD_RISATENO_RIGHT
+    def_bool $(shields_list_contains,risateno_right)
