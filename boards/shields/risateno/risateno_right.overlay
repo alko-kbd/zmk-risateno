@@ -6,6 +6,8 @@
 
 #include "risateno.dtsi"
 
+#define IS_RISATENO_RIGHT
+
 &default_transform {
 	col-offset = <10>;
 };
