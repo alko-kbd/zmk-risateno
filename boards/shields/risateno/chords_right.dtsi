@@ -79,7 +79,7 @@ combo_r_bspc { \
 TCOMBO(B,      &kp B,       &kp LS(B),     &kp RIGHT,   &kp LS(RIGHT), TLP,         TRP)
 TCOMBO(F,      &kp F,       &kp LS(F),     &kp UP,      &kp LS(UP),    TLR,         TRR)
 TCOMBO(T,      &kp T,       &kp LS(T),     &kp DOWN,    &kp LS(DOWN),  TLM,         TRM)
-TCOMBO(J,      &kp J,       &kp LS(J),     &kp LEFT,    &kp LS(LEFT), TLI,         TRI)
+TCOMBO(J,      &kp J,       &kp LS(J),     &kp LEFT,    &kp LS(LEFT),  TLI,         TRI)
 TCOMBO(H,      &kp H,       &kp LS(H),     &sk LGUI,    &kp HOME,      BLP,         BRP)
 TCOMBO(C,      &kp C,       &kp LS(C),     &sk LALT,    &kp PG_UP,     BLR,         BRR)
 TCOMBO(N,      &kp N,       &kp LS(N),     &sk LCTRL,   &kp PG_DN,     BLM,         BRM)
