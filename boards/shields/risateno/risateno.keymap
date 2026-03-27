@@ -42,7 +42,7 @@
 / {
   combos {
     compatible = "zmk,combos";
-    #if IS_ENABLED(CONFIG_SHIELD_RISATENO_RIGHT)
+    #ifdef CONFIG_IS_RISATENO_RIGHT
       #error "RIGHT!"
       #include "chords_right.dtsi"
     #else
