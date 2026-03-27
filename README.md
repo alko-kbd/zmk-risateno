@@ -14,4 +14,4 @@ Prepared for ZMK Studio.
 
 # Pins and fingers
 
-![pin_fingers_layout](pics/pin_fingers_layout.png)
+![pin_fingers_layout](pics/risateno_pin_fingers_layout.png)
