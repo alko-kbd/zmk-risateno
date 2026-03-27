@@ -43,10 +43,8 @@
   combos {
     compatible = "zmk,combos";
     #ifdef IS_RISATENO_RIGHT
-      #error "RIGHT!"
       #include "chords_right.dtsi"
     #else
-      #error "NOT_RIGHT!"
       #include "chords.dtsi"
     #endif
   };
